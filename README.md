@@ -1,5 +1,4 @@
-# PORTFOLIO-V2
-Portfolio
+# Portfolio Version 2
 
 Patrick Ail B. Bandola - Portfolio Version 2
 
