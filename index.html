@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="includes/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!--Navbar-->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Patrick Bandola</a>
+        <a
+          class="navbar-toggler"
+          type="a"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-telegram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!--Hero-->
+  <section id="home" class="home d-flex align-items-center min-vh-100" style="background-image: url(includes/images/pat2.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="display-3 fw-bold" data-aos="fade-up">Hi there! I am <span class="text-brand">Patrick Bandola.</span></h1>
+          <h4 data-aos="fade-up" data-aos-delay="100" class="mt-3 mb-5">Web Developer and Designer</h4>
+          <div data-aos="fade-up" data-aos-delay="200">
+            <a download href="Resume.pdf" class="btn btn-brand">Download My CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--About-->
+  <section id="about" class="section-connector">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem enim sequi! Dolorum, officia, impedit.</p>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4 text-center">
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="info h-100 py-5 px-4 border">
+            <div class="info-icon d-inline-flex align-items-center justify-content-center">
+              <i class="fa fa-user"></i>
+            </div>
+            <h5 class="mt-4">Personal Info</h5>
+            <p>A 22 yr old, Bachelor of Science in Information Technology Graduate from the Polytechnic University of the Philippines San Pedro Campus.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="info h-100 py-5 px-4 border">
+            <div class="info-icon d-inline-flex align-items-center justify-content-center">
+              <i class="fa fa-laptop-code"></i>
+            </div>
+            <h5 class="mt-4">Services</h5>
+            <p>I am a Web Developer. I create Websites and Web Applications. Some of my projects are displayed below.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="info h-100 py-5 px-4 border">
+            <div class="info-icon d-inline-flex align-items-center justify-content-center">
+              <i class="fa fa-basketball"></i>
+            </div>
+            <h5 class="mt-4">Hobbies</h5>
+            <p>I really like coding, so much that I do it most of the time, but whenever I'm not, I watch animes, tv series and movies. I read novels and mangas. I also do simple body workout and play basketball with my friends.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="info h-100 py-5 px-4 border">
+            <div class="info-icon d-inline-flex align-items-center justify-content-center">
+              <i class="fa fa-phone"></i>
+            </div>
+            <h5 class="mt-4">Contact Info</h5>
+            <p>This portfolio serves to be my personal website. You can contact me by filing out the form to send me a message. You can also check out my other contact details written below.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Projects-->
+  <section id="projects" class="section-connector bg-light">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>Projects</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem enim sequi! Dolorum, officia, impedit.</p>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="project">
+            <img src="includes/images/contrive.png" class="img-fluid">
+            <div class="content d-flex align-items-center justify-content-center">
+              <a href="includes/images/contrive-d.png" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="project">
+            <img src="includes/images/ecms.png" class="img-fluid">
+            <div class="content d-flex align-items-center justify-content-center">
+              <a href="includes/images/ecms-d.png" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="project">
+            <img src="includes/images/elms.png" class="img-fluid">
+            <div class="content d-flex align-items-center justify-content-center">
+              <a href="includes/images/elms-d.png" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="project">
+            <img src="includes/images/portfolio.png" class="img-fluid">
+            <div class="content d-flex align-items-center justify-content-center">
+              <a href="includes/images/portfolio-d.png" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="project">
+            <img src="includes/images/animanga.png" class="img-fluid">
+            <div class="content d-flex align-items-center justify-content-center">
+              <a href="includes/images/animanga-d.png" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="project">
+            <img src="includes/images/moviemo.png" class="img-fluid">
+            <div class="content d-flex align-items-center justify-content-center">
+              <a href="includes/images/moviemo-d.png" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Tech Stack-->
+  <section id="techstack" class="section-connector">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>Tech Stack</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem enim sequi! Dolorum, officia, impedit.</p>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0">
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="stack p-5 border">
+            <img src="includes/images/html.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="stack p-5 border">
+            <img src="includes/images/css.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="stack p-5 border">
+            <img src="includes/images/javascript.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="stack p-5 border">
+            <img src="includes/images/jquery.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="stack p-5 border">
+            <img src="includes/images/bootstrap.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="stack p-5 border">
+            <img src="includes/images/php.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="stack p-5 border">
+            <img src="includes/images/mysql.svg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="stack p-5 border">
+            <img src="includes/images/api.svg" class="img-fluid">
+          </div>
+        </div>
+       </div>
+    </div>
+  </section>
+  <!--Resume-->
+  <section id="resume" class="section-connector bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>Education and Experience </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem enim sequi! Dolorum, officia, impedit.</p>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+              <div class="resume h-100 p-5 pt-0">
+                <h5>PUP San Pedro Campus | Information Technology</h5>
+                <small class="text-brand">2018 - 2022</small>
+                <p class="mb-0">Learned the basics of Web Development, Web Design, and Programming. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+              <div class="resume h-100 p-5 pt-0">
+                <h5>Teravision Information Technology Services | Web Development Intern</h5>
+                <small class="text-brand">April 2022 - July 2022</small>
+                <p class="mb-0">Learned the basics of Web Development, Web Design, and Programming. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Blog-->
+  <section id="blog" class="section-connector">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>Blog</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem enim sequi! Dolorum, officia, impedit.</p>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="blog bg-light p-4">
+            <img src="includes/images/font.jpg" class="img-fluid">
+            <div class="blog-content pt-4">
+            <h4>Font Styles</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptates dolor perspiciatis ut sint, perferendis.</p>
+            <a href="blog/font-style.html" class="info-link">
+              <span>Read More</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="blog bg-light p-4">
+            <img src="includes/images/stock.jpg" class="img-fluid">
+            <div class="blog-content pt-4">
+            <h4>Stock Photos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptates dolor perspiciatis ut sint, perferendis.</p>
+            <a href="blog/font-style.html" class="info-link">
+              <span>Read More</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="blog bg-light p-4">
+            <img src="includes/images/icons.jpg" class="img-fluid">
+            <div class="blog-content pt-4">
+            <h4>Icons</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptates dolor perspiciatis ut sint, perferendis.</p>
+            <a href="blog/font-style.html" class="info-link">
+              <span>Read More</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="blog bg-light p-4">
+            <img src="includes/images/animation.jpg" class="img-fluid">
+            <div class="blog-content pt-4">
+            <h4>Animation</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptates dolor perspiciatis ut sint, perferendis.</p>
+            <a href="blog/font-style.html" class="info-link">
+              <span>Read More</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="blog bg-light p-4">
+            <img src="includes/images/carousel.jpg" class="img-fluid">
+            <div class="blog-content pt-4">
+            <h4>Carousel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptates dolor perspiciatis ut sint, perferendis.</p>
+            <a href="blog/font-style.html" class="info-link">
+              <span>Read More</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="blog bg-light p-4">
+            <img src="includes/images/parallax.jpg" class="img-fluid">
+            <div class="blog-content pt-4">
+            <h4>Parallax Effect</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptates dolor perspiciatis ut sint, perferendis.</p>
+            <a href="blog/font-style.html" class="info-link">
+              <span>Read More</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact-->
+  <section id="contact" class="section-connector bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem enim sequi! Dolorum, officia, impedit.</p>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+          <form action="#" class="row g-3">
+            <div class="form-group col-md-4">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group col-md-4">
+              <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group col-md-4">
+              <input type="text" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="form-group col-md-12">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group col-md-12">
+              <textarea name="" rows="4" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group col-md-12 text-center">
+              <button class="btn btn-brand">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="row gy-5">
+          <div class="col-md-4">
+            <h4><a href="#home" class="text-white">Patrick Bandola</a></h4>
+            <p>Web Developer and Designer</p>
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-github"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-telegram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="social-link d-inline-flex align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        <div class="col-md-3 ms-auto">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto: pbandola06@gmail.com">Email: pbandola06@gmail.com</a></li>
+            <li><a href="tel: 09503638031">Phone: 09503638031</a></li>
+            <li><a href="https://www.google.com/maps/place/San+Pedro,+Laguna/@14.3491271,121.0235965,14z/data=!3m1!4b1!4m5!3m4!1s0x3397d0d6c63526c5:0xd6e9ae89984e851e!8m2!3d14.3528609!4d121.0458348" target="_blank">Address: San Pedro City, Laguna</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <div class="row justify-content-between gy-3">
+          <div class="col-auto">
+            <p class="mb-0">Copyright @ 2022 | All Rights Reserved</p>
+          </div>
+          <div class="col-auto">
+            <p class="mb-0">Designed By Patrick Bandola</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="includes/script.js"></script>
+</html>
